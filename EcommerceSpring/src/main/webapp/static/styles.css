@@ -1,0 +1,130 @@
+body {
+	font-family: "Times New Roman, Times, serif";
+	text-align: center;
+	background-color: cyan;
+	text-align: center;
+	color: white;
+}
+
+form#login {
+	font-size: 16px;
+}
+
+.btn {
+	background-color: dodgerblue;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	min-width: 140px;
+}
+
+.error {
+	border-style: solid;
+	color: red;
+	border-color: red;
+	width: 40%;
+	margin: auto;
+	padding: 10px;
+}
+
+.success {
+	border-style: solid;
+	color: green;
+	border-color: green;
+	width: 40%;
+	margin: auto;
+	padding: 10px;
+}
+
+.warning {
+	border-style: solid;
+	color: tomato;
+	border-color: tomato;
+	width: 40%;
+	margin: auto;
+	padding: 10px;
+}
+
+.menu {
+	background-color: slateblue;
+	padding: 10px;
+	text-align: right;
+}
+
+.content {
+	margin: auto;
+	width: 50%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: slateblue;
+}
+
+.insert {
+	float: right;
+	padding: 5px;
+	margin: 5px;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: dodgerblue;
+}
+
+a:active {
+	color: dodgerblue;
+}
+
+#productImage {
+	max-width: 160px;
+	max-height: 160px;
+}
+
+#logo {
+	float: left;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+
+.grid-item {
+	background-color: slateblue;
+	color: white;
+	border: 3px solid slateblue;
+	margin: 5px;
+	padding: 20px;
+	font-size: 24px;
+	text-align: center;
+	width: 200px;
+	height: 160px;
+}
+
+.grid-item:hover {
+	background-color: cyan;
+}

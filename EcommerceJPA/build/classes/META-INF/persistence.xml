@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="EcommerceJPA">
+		<class>model.Category</class>
+		<class>model.Discount</class>
+		<class>model.Item</class>
+		<class>model.ItemPK</class>
+		<class>model.Purchase</class>
+		<class>model.PurchasePK</class>
+		<class>model.Role</class>
+		<class>model.Sale_has_Item</class>
+		<class>model.Sale_has_ItemPK</class>
+		<class>model.User</class>
+		<class>model.Wishlist</class>
+		<class>model.WishlistPK</class>
+	</persistence-unit>
+</persistence>
